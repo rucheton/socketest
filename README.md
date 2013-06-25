@@ -9,3 +9,6 @@ This project is just meant as a test for socket.io. I had to create a Chrome Sup
 
 ##HOW IT WORKS
 When a user goes on the website, a socket connection is initialized on the general namespace. This connection allows us to register a new connection on a dedicated namespace. The user can then open a link (scan a qrcode) on a mobile device to connect on that namespace and be able to remote control the website.
+
+###Run the project :
+    node app.js
