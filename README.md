@@ -1,5 +1,4 @@
 #SOCKETEST
-=========
 This project is just meant as a test for socket.io. I had to create a Chrome Super Sync Sports like system (http://chrome.com/supersyncsports/). You can remote control a website with a mobile device (or desktop, I don't check yet).
 
 ##REQUIREMENTS
