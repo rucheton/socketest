@@ -1,0 +1,110 @@
+/* app css stylesheet */
+
+body {
+  background-color: orange;
+  padding:10px;
+}
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+#container {
+  width:800px;
+  height:500px;
+  padding:0;
+  margin:0;
+  position:relative;
+}
+
+#game-container {
+  background:url(../img/game-background.jpg);
+  width:800px;
+  height:500px;
+  position:relative;
+  border: 2px black solid;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+#game-character {
+  background: url(../img/head.gif);
+  width: 170px;
+  height: 120px;
+  top: 270px;
+  left: 50%;
+  margin-left: -85px;
+  position: absolute;
+  -webkit-transition: -webkit-transform 1s;
+}
+
+#game-button-left {
+  width:50%;
+  height:320px;
+  background-color: red;
+  float:left;
+}
+
+#game-button-right {
+  width:50%;
+  height:320px;
+  background-color: green;
+  float:left;
+}
+
+#game-player-one {
+  width: 200px;
+  height: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: left;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 5px;
+}
+
+#game-qrcode {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 160px;
+  height: 160px;
+}
+
+#game-player-two {
+  width: 200px;
+  height: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 5px;
+}

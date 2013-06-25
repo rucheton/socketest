@@ -1,0 +1,17 @@
+{
+  "name": "application-name",
+  "version": "0.0.1-2",
+  "private": true,
+  "dependencies": {
+    "express": "~3.2.6",
+    "jade": "~0.31.2",
+    "socket.io": "0.9.x"
+  },
+  "subdomain": "ase",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
+}
